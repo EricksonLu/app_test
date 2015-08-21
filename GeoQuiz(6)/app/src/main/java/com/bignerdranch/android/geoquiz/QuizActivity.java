@@ -128,7 +128,7 @@ public class QuizActivity extends Activity {
         updateQuestion();
     }
 
-//    从CheatActivity返回结果
+//    从CheatActivity返回结果存在mIsCheater，这个Activity重建的时候重新调用checkAnswer的时候如果作弊了，会弹出toast
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (resultCode != Activity.RESULT_OK) return;
