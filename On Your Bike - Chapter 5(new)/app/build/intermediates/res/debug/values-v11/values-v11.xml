@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/app/On%20Your%20Bike%20-%20Chapter%205(new)/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light"/>
+</resources>

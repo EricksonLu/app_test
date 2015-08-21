@@ -1,0 +1,23 @@
+apply plugin: 'com.android.application'
+
+android {
+    dependencies {
+    compile 'com.android.support:support-v4:13.0.+'
+}
+    compileSdkVersion 21
+    buildToolsVersion "23.0.0 rc3"
+
+    defaultConfig {
+        applicationId "com.androiddevbook.onyourbike.chapter5"
+        minSdkVersion 9
+        targetSdkVersion 17
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--android:showAsAction="always|withText"
+这里经常遇到问题
+http://stackoverflow.com/questions/13677014/no-resource-identifier-found-for-attribute-showasaction-in-package-android
+http://stackoverflow.com/questions/22354781/no-resource-identifier-found-for-attribute-showasaction
+http://stackoverflow.com/questions/5260686/no-resource-identifier-found-for-attribute-showasaction-in-package-android
+这个menu的showsAsAction！好像！是只能api大于 11才能用。。。有时间再看！！
+这个showsAsAction用来控制操作栏和菜单键按钮是否显示设置的，如果是never则可以通过菜单键呼出设置，如果用always，会显示的在右上角的操作栏显出来图标-->
+
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="never"
+        android:title="@string/menu_settings"/>
+
+</menu>

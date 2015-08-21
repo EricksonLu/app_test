@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-v4\13.0.0\support-v4-13.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc3"
+        sha1="3fe75433da602500cc71fcc1c46e5550291dd45d">
+        <dex dex="F:\app\On Your Bike - Chapter 5(new)\app\build\intermediates\pre-dexed\debug\support-v4-13.0.0-114775ede192730e100d22599a325d8ae50a46ce.jar" />
+    </item>
+
+</items>

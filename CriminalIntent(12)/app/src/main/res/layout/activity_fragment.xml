@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/fragmentContainer"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  />
+<!--这是一个通用的布局定义文件，因为并没用指定java文件，所以只要activity托管一个fragment就可以使用这个布局文件-->
