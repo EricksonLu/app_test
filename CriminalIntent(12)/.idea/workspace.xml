@@ -56,8 +56,8 @@
       <file leaf-file-name="CrimeFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49468085">
-              <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.5283688">
+              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
               <folding>
                 <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
                 <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
@@ -2019,8 +2019,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49468085">
-          <caret line="128" column="8" selection-start-line="128" selection-start-column="8" selection-end-line="128" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.5283688">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
             <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
             <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
