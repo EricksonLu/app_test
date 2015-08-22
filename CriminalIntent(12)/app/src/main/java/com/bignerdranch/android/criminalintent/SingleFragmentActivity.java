@@ -26,6 +26,9 @@ public abstract class SingleFragmentActivity extends FragmentActivity {
 //        会将fragment队列保存下来。这样，activity重建时，新的FragmentManager会首先获取保存的队列，然后重建fragment队列，从而恢复到原来的状态
         Fragment fragment = manager.findFragmentById(R.id.fragmentContainer);
 
+//        如果指定容器视图资源ID的fragment不存在，则fragment变量为控制，这时应创建一个新的CrimeFragment
+//        CrimeActivity因设备旋转或回收内存被销毁后，重建时，CrimeActivity.onCreate方法会响应activity的重建而被调用。
+//        activity被销毁时，它的FragmentManager会将fragment队列保存下来。重建时候，新的FragmentManager首先获取保存的队列，然后重建fragment队列。
         if (fragment == null) {
             fragment = createFragment();
 //            beginTransaction方法创建并返回FragmentTransaction实例。FragmentTransaction类使用了fluent interface接口方法，通过该方法可以返回FragmentTransaction对象
