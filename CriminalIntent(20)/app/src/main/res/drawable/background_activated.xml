@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  <!-- 当引用这个XML文件时候该drawable资源的视图处于激活状态是，则使用android:drawable属性值指定的资源，反之不采取任何操作-->
+  <!-- 如果设置为false，则只要视图未处于激活状态，android:drawable指定资源都会被使用-->
+  <!-- 这个是被list_item_crime.xml资源文件引用的-->
+  <item
+    android:state_activated="true"
+    android:drawable="@android:color/darker_gray"
+    />
+</selector>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--FrameLayout的出事状态设置为不可见,只有在用户点击take按钮开始拍照时才可以见
+这里注意FrameLayout组件的宽高属性都设置为了match_parent,而根元素Framlayout会按照个子组件定义的顺序叠放它们
+因此，ProgressBar组件的FrameLayout会完全遮挡住同级LinearLayout兄弟组件
+FrameLayout组件可见时，用户依然能够看到LinearLayout组件包含的子组件。只有ProgressBar组件缺失会遮挡其他组件。
+然而通过设置FrameLayout组件的宽、高属性值和android:clickable="true"可以确保FrameLayout组件能够截获，仅仅是截获但不响应任何触摸事件
+这样，可阻止用户与LinearLayout组件包含的子组件交互，尤其是可以阻止用户再次单机take拍照按钮-->
+<FrameLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <LinearLayout android:id="@+id/crime_camera_preview"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <SurfaceView android:id="@+id/crime_camera_surfaceView"
+      android:layout_weight="1"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"/>
+    <Button android:id="@+id/crime_camera_takePictureButton"
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent"
+      android:text="@string/take"/>
+  </LinearLayout>
+  <FrameLayout android:id="@+id/crime_camera_progressContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true">
+    <!-- 进度条-->
+    <ProgressBar
+      style="@android:style/Widget.ProgressBar.Large"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"/>
+  </FrameLayout>
+</FrameLayout>
+<!-- From: file:/F:/app/CriminalIntent(20)/app/src/main/res/layout/fragment_crime_camera.xml -->
