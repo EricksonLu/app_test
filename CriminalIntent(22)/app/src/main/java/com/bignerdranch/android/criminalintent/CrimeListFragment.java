@@ -27,6 +27,8 @@ import android.widget.TextView;
 public class CrimeListFragment extends ListFragment {
     private ArrayList<Crime> mCrimes;
     private boolean mSubtitleVisible;
+//    为委托工作任务给托管activity处理的工作任务，任何打算托管目标fragment的activity都必须实现个接口
+//    有了回调接口，无需知道自己的托管者是谁，fragment就可以直接调用托管activity的方法
     private Callbacks mCallbacks;
 
     public interface Callbacks {
@@ -36,6 +38,8 @@ public class CrimeListFragment extends ListFragment {
     @Override
     public void onAttach(Activity activity) {
         super.onAttach(activity);
+//        将托管activity强制类型转换为Callbacks对象并赋值给Callbacks类型变量
+//        该方法是在fragment附加给activity时调用的，fragment是否保留并不重要
         mCallbacks = (Callbacks)activity;
     }
 
@@ -45,6 +49,7 @@ public class CrimeListFragment extends ListFragment {
         mCallbacks = null;
     }
 
+//    重新刷新加载CrimeListFragment列表。
     public void updateUI() {
         ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
     }
@@ -125,7 +130,9 @@ public class CrimeListFragment extends ListFragment {
     public void onListItemClick(ListView l, View v, int position, long id) {
         // get the Crime from the adapter
         Crime c = ((CrimeAdapter)getListAdapter()).getItem(position);
+//        启动CrimePagerActivity
         mCallbacks.onCrimeSelected(c);
+
     }
     
     @Override
@@ -151,6 +158,7 @@ public class CrimeListFragment extends ListFragment {
                 Crime crime = new Crime();
                 CrimeLab.get(getActivity()).addCrime(crime);
                 ((CrimeAdapter)getListAdapter()).notifyDataSetChanged();
+//                只要新增一项crime记录，就会重新加载crime列表
                 mCallbacks.onCrimeSelected(crime);
                 return true;
             case R.id.menu_item_show_subtitle:

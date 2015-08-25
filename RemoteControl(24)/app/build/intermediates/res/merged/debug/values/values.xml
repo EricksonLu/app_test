@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/F:/app/RemoteControl(24)/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">RemoteControl</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_remote_control">RemoteControlActivity</string>
+    <!-- From: file:/F:/app/RemoteControl(24)/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+    <style name="RemoteButton">
+<item name="android:layout_width">0dp</item>
+<item name="android:layout_height">match_parent</item> 
+<item name="android:textColor">#556699</item>
+<item name="android:textSize">20dp</item>
+<item name="android:layout_margin">3dp</item>
+  <!--<item name="android:background">#ccd7ee</item>-->
+</style>
+</resources>

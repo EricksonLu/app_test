@@ -5,6 +5,7 @@
     android:divider="?android:attr/dividerHorizontal"
     android:showDividers="middle"
     android:orientation="horizontal">
+    <!-- 创建包含两个FrameLayout的布局fragmentContainer-->
   <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/fragmentContainer"
     android:layout_width="0dp"

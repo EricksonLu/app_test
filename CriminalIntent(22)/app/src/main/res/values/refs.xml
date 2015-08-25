@@ -1,3 +1,5 @@
+<!--使用别名资源，别名资源是一种指向其他资源的特殊资源。将resources作为根元素，指向了单版面的布局资源文件，别名资源自身也具有资源ID-->
+<!--这个是R.layout.activity_masterdetail,别名type属性决定了资源ID属于什么内部类，即使别名资源自身存放在res/values目录中，它的资源ID依然属于R.layout内部类-->
 <resources>
 
     <item name="activity_masterdetail" type="layout">@layout/activity_fragment</item>

@@ -1,5 +1,6 @@
 <resources>
-
+<!--指向双版面布局   -sw600dp 代表smallest width最小宽度的缩写，虽然字面上是宽度的含义，但它实际指的是屏幕的最小尺寸。-->
+    <!--这个配置修饰符表明，对任何最小尺寸为600dp或者更高dp的设备都使用这个资源 -->
     <item name="activity_masterdetail" type="layout">@layout/activity_twopane</item>
 
 </resources>
