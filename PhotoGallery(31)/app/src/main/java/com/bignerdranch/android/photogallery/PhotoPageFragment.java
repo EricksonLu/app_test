@@ -41,6 +41,7 @@ public class PhotoPageFragment extends VisibleFragment {
                 return false;
             }
         });
+//        嵌入WebChromeClient
         mWebView.setWebChromeClient(new WebChromeClient() {
             public void onProgressChanged(WebView webView, int progress) {
                 if (progress == 100) {
@@ -55,7 +56,7 @@ public class PhotoPageFragment extends VisibleFragment {
                 titleTextView.setText(title);
             }
         });
-        
+//        加载URL
         mWebView.loadUrl(mUrl);
 
         return v;

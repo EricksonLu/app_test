@@ -19,6 +19,8 @@ public class FlickrFetchr {
     public static final String TAG = "PhotoFetcher";
 
     public static final String PREF_SEARCH_QUERY = "searchQuery";
+
+//    后台服务会一直查看最新的返回结果，因此它需要知道最近一次获取的结果。使用SharedPreferences保存结果值，用于存储最近一次获取图片的ID
     public static final String PREF_LAST_RESULT_ID = "lastResultId";
 
     private static final String ENDPOINT = "http://api.flickr.com/services/rest/";
@@ -88,6 +90,7 @@ public class FlickrFetchr {
         return items;
     }
 
+//    根据API构建检索式
     public ArrayList<GalleryItem> search(String query) {
         String url = Uri.parse(ENDPOINT).buildUpon()
                 .appendQueryParameter("method", METHOD_SEARCH)

@@ -9,6 +9,9 @@ package com.bignerdranch.android.photogallery;
 
 public final class Manifest {
     public static final class permission {
+        /**  阻止未授权的应用闯入这个应用，或在receiver标签上添加一个android:exported = false这样，系统中其他应用无法接触打receiver 
+ 自定义权限必须指定android:protectionLevel值，系统根据这个值确定使用方式 
+         */
         public static final String PRIVATE="com.bignerdranch.android.photogallery.PRIVATE";
     }
 }

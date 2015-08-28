@@ -6,13 +6,16 @@
   <uses-sdk
     android:minSdkVersion="8"
     android:targetSdkVersion="17" />
-  
+  <!-- 阻止未授权的应用闯入这个应用，或在receiver标签上添加一个android:exported = false这样，系统中其他应用无法接触打receiver-->
+  <!-- 自定义权限必须指定android:protectionLevel值，系统根据这个值确定使用方式-->
   <permission android:name="com.bignerdranch.android.photogallery.PRIVATE"
     android:protectionLevel="signature" />
   
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- 允许应用使用权限-->
   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <!-- 此标签是声明并获取属于自己的使用权限，后面为了使用权限会将其传入sendBroadcast-->
   <uses-permission android:name="com.bignerdranch.android.photogallery.PRIVATE" />
   
   <application
@@ -37,9 +40,12 @@
     <activity 
         android:name=".PhotoPageActivity"
         android:configChanges="keyboardHidden|orientation|screenSize" />
+    <!-- 声明IntentService-->
     <service android:name=".PollService" />
+    <!-- 登记Broadcast Receiver-->
     <receiver android:name=".StartupReceiver">
         <intent-filter>
+          <!-- 配置Broadcast Receiver的使用权限-->
             <action android:name="android.intent.action.BOOT_COMPLETED" />
         </intent-filter>
     </receiver>

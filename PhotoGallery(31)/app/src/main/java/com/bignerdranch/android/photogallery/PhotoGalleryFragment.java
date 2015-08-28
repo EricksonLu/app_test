@@ -6,6 +6,7 @@ import android.annotation.TargetApi;
 import android.app.Activity;
 import android.app.SearchManager;
 import android.app.SearchableInfo;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -32,15 +33,17 @@ public class PhotoGalleryFragment extends VisibleFragment {
     GridView mGridView;
     ArrayList<GalleryItem> mItems;
     ThumbnailDownloader mThumbnailThread;
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+
         setRetainInstance(true);
         setHasOptionsMenu(true);
 
         updateItems();
+//        启动IntentService在onCreatView里通过按钮单击实现了
+//        Intent i = new Intent(getActivity(),PollService.class);
+//        getActivity().startService(i);
 
         mThumbnailThread = new ThumbnailDownloader(new Handler());
         mThumbnailThread.start();
@@ -58,7 +61,7 @@ public class PhotoGalleryFragment extends VisibleFragment {
         mGridView = (GridView)v.findViewById(R.id.gridView);
         
         setupAdapter();
-        
+//        如果点击图片可以在默认浏览器中启动并显示图片
         mGridView.setOnItemClickListener(new OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> gridView, View view, int pos,
@@ -66,6 +69,9 @@ public class PhotoGalleryFragment extends VisibleFragment {
                 GalleryItem item = mItems.get(pos);
                 
                 Uri photoPageUri = Uri.parse(item.getPhotoPageUrl());
+//                这里是隐式调用
+//                Intent i1 = new Intent(Intent.ACTION_VIEW,photoPageUri);
+//                这里是显式调用
                 Intent i = new Intent(getActivity(), PhotoPageActivity.class);
                 i.setData(photoPageUri);
                 
@@ -122,10 +128,12 @@ public class PhotoGalleryFragment extends VisibleFragment {
                     .commit();
                 updateItems();
                 return true;
+//            启动定时器，定时后台查询新的图片
+//            在3.0以后的版本onPrepareOptionsMenu就不能更新自己了，需要调用getActivity().invalidateOptionsMenu()方法回调onPrepareOptionsMenu方法并刷新菜单
             case R.id.menu_item_toggle_polling:
                 boolean shouldStartAlarm = !PollService.isServiceAlarmOn(getActivity());
                 PollService.setServiceAlarm(getActivity(), shouldStartAlarm);
-                
+//                此处就是3.0以后版本刷新菜单通过invalidateOptionsMenu调用的回调函数onPrepareOptionsMenu
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB)
                     getActivity().invalidateOptionsMenu();
 
@@ -135,11 +143,16 @@ public class PhotoGalleryFragment extends VisibleFragment {
         }
     }
 
+
+//    通常，开发选项菜单，只需完成菜单的用户界面即可。然而， 有时还需更新选项菜单，以反应应用的状态。
+//    当前，即使是旧式的选项菜单，也不会在每次使用时重新实例化生成。如需更新某个选项菜单项的内容，应在onPrepareOptionsMenu方法中添加代码
+//    除了菜单的首次创建外，每次菜单需要配置都会调用该方法。
     @Override
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
 
         MenuItem toggleItem = menu.findItem(R.id.menu_item_toggle_polling);
+//        检查定时器的开关状态
         if (PollService.isServiceAlarmOn(getActivity())) {
             toggleItem.setTitle(R.string.stop_polling);
         } else {
