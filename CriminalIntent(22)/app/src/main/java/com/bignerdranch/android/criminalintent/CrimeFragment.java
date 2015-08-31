@@ -42,11 +42,11 @@ public class CrimeFragment extends Fragment {
 
     Crime mCrime;
     EditText mTitleField;
+    Button mSuspectButton;
     Button mDateButton;
     CheckBox mSolvedCheckBox;
     ImageButton mPhotoButton;
     ImageView mPhotoView;
-    Button mSuspectButton;
     Callbacks mCallbacks;
 
 //    添加CrimeFragment给crime明细fragment容器，让CrimeListActivity可以展示一个完整的双版面用户界面

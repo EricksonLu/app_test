@@ -32,9 +32,13 @@ public class MyHandler extends Handler {
 // Android系统中是禁止子线程执行更新UI的操作的。所以如果想要将子线程的执行数据结果用来更新UI，那么可以借助UI线程
 // 的handlerUI,这样就可以调去UI线程执行更新。只需用UI线程的handler post或send一个消息过去即可。
         else if(data.getInt("threadNum") == 2){
+
+//            ************************这里通过设置textDisplay更新UI，和主线程的public handlerUI在这里更新UI线程
             handlerthread_activity.textDisplay = data.getString("display") + data.getString("text");
 //倘若直接执行myText.setText(textDisplay);便会发生异常
             handlerthread_activity.handlerUI.post(handlerthread_activity.updateUI);
+
+
             System.out.println("线程2的ID号是 = " + Thread.currentThread().getId());
         }
     }

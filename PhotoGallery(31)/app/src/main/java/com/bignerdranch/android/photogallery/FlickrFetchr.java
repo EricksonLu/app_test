@@ -57,11 +57,15 @@ public class FlickrFetchr {
             connection.disconnect();
         }
     }
-    
+
+
+
+
     String getUrl(String urlSpec) throws IOException {
         return new String(getUrlBytes(urlSpec));
     }
-    
+
+
     public ArrayList<GalleryItem> fetchItems() {
         String url = Uri.parse(ENDPOINT).buildUpon()
                 .appendQueryParameter("method", METHOD_GET_RECENT)
@@ -70,7 +74,9 @@ public class FlickrFetchr {
                 .build().toString();
         return downloadGalleryItems(url);
     }
-    
+
+
+
     public ArrayList<GalleryItem> downloadGalleryItems(String  url) {
         ArrayList<GalleryItem> items = new ArrayList<GalleryItem>();
         

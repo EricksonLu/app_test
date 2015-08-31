@@ -19,10 +19,10 @@ public class ThumbnailDownloader extends HandlerThread {
     private static final int MESSAGE_DOWNLOAD = 0;
     
     Handler mHandler;
-    Map<ImageView,String> requestMap = 
-            Collections.synchronizedMap(new HashMap<ImageView,String>());
+    Map<ImageView,String> requestMap = Collections.synchronizedMap(new HashMap<ImageView,String>());
     Handler mResponseHandler;
-    
+
+//    构造函数
     public ThumbnailDownloader(Handler responseHandler) {
         super(TAG);
         mResponseHandler = responseHandler;
@@ -36,8 +36,8 @@ public class ThumbnailDownloader extends HandlerThread {
             public void handleMessage(Message msg) {
                 if (msg.what == MESSAGE_DOWNLOAD) {
                     ImageView imageView = (ImageView)msg.obj;
-                    Log.i(TAG, "Got a request for url: " + requestMap.get(imageView));
                     handleRequest(imageView);
+//                    Log.i(TAG, "Got a request for url: " + requestMap.get(imageView));
                 }
             }
         };
@@ -68,11 +68,10 @@ public class ThumbnailDownloader extends HandlerThread {
     }
     
     public void queueThumbnail(ImageView imageView, String url) {
+//        放入hashmap中
         requestMap.put(imageView, url);
-        
-        mHandler
-            .obtainMessage(MESSAGE_DOWNLOAD, imageView)
-            .sendToTarget();
+//        从imageView中并加入到后台处理队列中
+        mHandler.obtainMessage(MESSAGE_DOWNLOAD, imageView).sendToTarget();
     }
     
     public void clearQueue() {

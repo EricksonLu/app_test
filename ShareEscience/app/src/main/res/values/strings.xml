@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ShareEscience</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_text">请输入查询...</string>
+</resources>

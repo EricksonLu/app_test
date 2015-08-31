@@ -1,16 +1,17 @@
 package com.example.lushan.handlerthreadtest;
 
+import android.app.Activity;
 import android.os.Handler;
 import android.os.HandlerThread;
 import android.os.Looper;
 import android.os.Message;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
 
-public class handlerthread_activity extends AppCompatActivity {
+public class handlerthread_activity extends Activity {
 //handlerUI创建UI线程用来更新UI的handler
     public static Handler handlerUI = new Handler();
     public  static TextView myText = null;
