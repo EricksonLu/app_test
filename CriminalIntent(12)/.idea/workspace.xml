@@ -10,33 +10,129 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad630b68-8714-47d9-86d5-1ea04ead84e4" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/cache.properties" />
+      <change type="DELETED" beforePath="F:\app\CriminalIntent(12)\.idea\libraries\support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\GeoQuiz(6)\.idea\libraries\support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\ShareEscience.iml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\app.iml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\androidTest\java\shareescience_p01\com\shareescience\ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\FetcherJSON.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\MyHandlerThread.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\Product.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\menu\menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values-w820dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradlew" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\settings.gradle" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/FlickrFetchr.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/FlickrFetchr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$1.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$FetchItemsTask.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$FetchItemsTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$GalleryItemAdapter.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$GalleryItemAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment$2.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$1.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$2.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment$1.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment.class" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/build/intermediates/gradle_project_sync_data.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/build/intermediates/gradle_project_sync_data.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/resources-debug.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraActivity.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraFragment.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeCameraFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/merged/debug/layout/activity_twopane.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/merged/debug/layout/activity_twopane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/layout/activity_twopane.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/layout/activity_twopane.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/app.iml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/app.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/ImageFragment.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/ImageFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/PictureUtils.java" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/java/com/bignerdranch/android/criminalintent/PictureUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Handlerthreadtest/app/src/main/java/com/example/lushan/handlerthreadtest/handlerthread_activity.java" afterPath="$PROJECT_DIR$/../Handlerthreadtest/app/src/main/java/com/example/lushan/handlerthreadtest/handlerthread_activity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/local.properties" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/local.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/local.properties" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/misc.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values/refs.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values/refs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values-xlarge/refs.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values-xlarge/refs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/app/build/intermediates/res/merged/debug/values/values.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/local.properties" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/local.properties" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/local.properties" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/app/build/intermediates/incremental/mergeResourcesdebug/merger.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/misc.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(20)/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(31)/.idea/workspace.xml" />
     </list>
     <ignored path="CriminalIntent.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,15 +194,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="CrimeLab.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+              <folding>
+                <element signature="method#CrimeLab#0;class#CrimeLab#0" expanded="false" />
+                <element signature="method#getCrime#0;class#CrimeLab#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="CrimeListActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-              <folding>
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-              </folding>
+              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -115,26 +221,26 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/Crime.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SingleFragmentActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingleFragmentActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.83156025">
+            <state vertical-scroll-proportion="0.0">
               <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatePickerFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatePickerFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.1672355">
               <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
               <folding>
                 <element signature="e#2757#2884#0" expanded="false" />
@@ -147,7 +253,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="94" selection-end-column="21" />
               <folding>
                 <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="false" />
                 <element signature="e#659#742#0" expanded="false" />
@@ -156,7 +262,6 @@
                 <element signature="method#onListItemClick#0;class#CrimeListFragment#0" expanded="false" />
                 <element signature="method#onActivityResult#0;class#CrimeListFragment#0" expanded="false" />
                 <element signature="method#startActivityForResult#0;class#CrimeListFragment#0" expanded="false" />
-                <element signature="class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
                 <element signature="method#CrimeAdapter#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
                 <element signature="e#2684#2723#0" expanded="false" />
                 <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
@@ -170,7 +275,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -211,6 +316,56 @@
         <entry key="$PROJECT_DIR$">
           <value>
             <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'CriminalIntent(12)'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'CriminalIntent(12)'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'CriminalIntent(12)'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'CriminalIntent(12)'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'CriminalIntent(12)'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'CriminalIntent(12)'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'CriminalIntent(12)' (some of the displayed tasks may belong to subprojects)." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays the Android dependencies of the project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
@@ -847,6 +1002,11 @@
                 <option name="name" value="compileReleaseUnitTestSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests for all flavors on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedAndroidTest" />
@@ -860,6 +1020,16 @@
                 <option name="description" value="Installs and runs the tests for debug on connected devices." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="connectedDebugAndroidTest" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Installs and runs instrumentation tests using all Device Providers." />
@@ -944,6 +1114,11 @@
                 <option name="name" value="generateReleaseSources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Installs the Debug build." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="installDebug" />
@@ -1009,6 +1184,11 @@
                 <option name="description" value="Creates a version of android.jar that's suitable for unit tests." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="mockableAndroidJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':app'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
@@ -1123,6 +1303,16 @@
                 <option name="name" value="processReleaseUnitTestJavaRes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Displays the signing info for each variant." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="signingReport" />
@@ -1131,6 +1321,11 @@
                 <option name="description" value="Prints out all the source sets defined in this project." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
                 <option name="name" value="sourceSets" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':app'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/app" />
+                <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Run unit tests for all variants." />
@@ -1373,6 +1568,117 @@
               <option name="name" value="app" />
               <option name="projectBuildClasspath">
                 <list>
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/announce" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/antlr" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/base-services" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/base-services-groovy" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/build-comparison" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/build-init" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/cli" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/code-quality" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/core" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/dependency-management" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/diagnostics" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ear" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ide" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ide-native" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/internal-integ-testing" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/internal-testing" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ivy" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/jacoco" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/javascript" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/jetty" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-groovy" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-java" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-jvm" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-native" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/language-scala" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/launcher" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/maven" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/messaging" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/model-core" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/model-groovy" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/native" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/open-api" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/osgi" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-base" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-jvm" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-native" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/platform-play" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugin-development" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugin-use" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/plugins" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/publish" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/reporting" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-http" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-s3" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/resources-sftp" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/scala" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/signing" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/sonar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/testing-native" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/tooling-api" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/tooling-api-builders" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/ui" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/src/wrapper" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/ant-1.9.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/ant-launcher-1.9.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-base-services-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-base-services-groovy-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-cli-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-core-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-docs-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-launcher-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-messaging-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-model-core-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-model-groovy-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-native-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-open-api-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-resources-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-tooling-api-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-ui-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/gradle-wrapper-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/groovy-all-2.3.10.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-announce-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-antlr-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-build-comparison-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-build-init-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-code-quality-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-dependency-management-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-diagnostics-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ear-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ide-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ide-native-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-ivy-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-jacoco-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-javascript-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-jetty-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-groovy-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-java-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-jvm-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-native-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-language-scala-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-maven-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-osgi-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-base-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-jvm-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-native-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-platform-play-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugin-development-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugin-use-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-plugins-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-publish-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-reporting-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-http-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-s3-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-resources-sftp-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-scala-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-signing-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-sonar-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-testing-native-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/gradle-tooling-api-builders-2.4.jar" />
+                  <option value="$APPLICATION_HOME_DIR$/gradle/gradle-2.4/lib/plugins/ivy-2.2.0.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -1395,10 +1701,10 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java" />
       </list>
     </option>
   </component>
@@ -1406,10 +1712,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-25" />
+    <option name="y" value="50" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="766" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -1435,6 +1741,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -1474,7 +1781,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -1682,7 +1988,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-25" y="50" width="1382" height="766" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1727,14 +2033,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
@@ -1768,11 +2066,95 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="71" />
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/Crime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#2757#2884#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="e#659#742#0" expanded="false" />
+            <element signature="e#1090#1145#0" expanded="false" />
+            <element signature="method#onResume#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="method#onListItemClick#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="method#onActivityResult#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="method#startActivityForResult#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="method#CrimeAdapter#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="e#2684#2723#0" expanded="false" />
+            <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
+            <element signature="e#3045#3097#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="method#createFragment#0;class#CrimeActivity#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="method#newInstance#0;class#CrimeFragment#0" expanded="false" />
+            <element signature="method#onCreate#0;class#CrimeFragment#0" expanded="false" />
+            <element signature="class#2513:2982" expanded="false" />
+            <element signature="method#onTextChanged#0;class#2513:2982" expanded="false" />
+            <element signature="method#beforeTextChanged#0;class#2513:2982" expanded="false" />
+            <element signature="method#afterTextChanged#0;class#2513:2982" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="71" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1814,7 +2196,6 @@
             <element signature="method#onListItemClick#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#startActivityForResult#0;class#CrimeListFragment#0" expanded="false" />
-            <element signature="class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#CrimeAdapter#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="e#2684#2723#0" expanded="false" />
             <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
@@ -1878,7 +2259,6 @@
             <element signature="method#onListItemClick#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#startActivityForResult#0;class#CrimeListFragment#0" expanded="false" />
-            <element signature="class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#CrimeAdapter#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="e#2684#2723#0" expanded="false" />
             <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
@@ -1991,35 +2371,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-          <folding>
-            <element signature="method#CrimeLab#0;class#CrimeLab#0" expanded="false" />
-            <element signature="method#getCrime#0;class#CrimeLab#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="26" selection-start-line="60" selection-start-column="26" selection-end-line="60" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="method#createFragment#0;class#CrimeActivity#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://F:/Android/sdk/sources/android-17/android/app/Activity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.03368794">
@@ -2067,21 +2418,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
-          <folding>
-            <element signature="e#2757#2884#0" expanded="false" />
-          </folding>
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/Crime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="method#createFragment#0;class#CrimeActivity#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2100,10 +2459,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeLab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="method#CrimeLab#0;class#CrimeLab#0" expanded="false" />
+            <element signature="method#getCrime#0;class#CrimeLab#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="92" column="0" selection-start-line="92" selection-start-column="0" selection-end-line="94" selection-end-column="21" />
           <folding>
             <element signature="method#onCreate#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="e#659#742#0" expanded="false" />
@@ -2112,7 +2490,6 @@
             <element signature="method#onListItemClick#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#onActivityResult#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#startActivityForResult#0;class#CrimeListFragment#0" expanded="false" />
-            <element signature="class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="method#CrimeAdapter#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
             <element signature="e#2684#2723#0" expanded="false" />
             <element signature="method#getView#0;class#CrimeAdapter#0;class#CrimeListFragment#0" expanded="false" />
@@ -2121,22 +2498,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimeListActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/CrimePagerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-          <folding>
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-          </folding>
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/SingleFragmentActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/criminalintent/DatePickerFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83156025">
-          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="-0.1672355">
+          <caret line="47" column="5" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="e#2757#2884#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

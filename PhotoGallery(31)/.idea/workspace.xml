@@ -5,8 +5,108 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="84d7424c-5105-4b70-8ff9-476d339685aa" name="Default" comment="" />
+    <list default="true" id="84d7424c-5105-4b70-8ff9-476d339685aa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.gradle/2.4/taskArtifacts/cache.properties" />
+      <change type="DELETED" beforePath="F:\app\GeoQuiz(6)\.idea\libraries\support_v4_18_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\runConfigurations.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\ShareEscience.iml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\app.iml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\proguard-rules.pro" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\androidTest\java\shareescience_p01\com\shareescience\ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\AndroidManifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\FetcherJSON.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\MainActivity.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\MyHandlerThread.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\java\shareescience_p01\com\shareescience\Product.java" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\layout\activity_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\menu\menu_main.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-hdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-mdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-xhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\mipmap-xxhdpi\ic_launcher.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values-w820dp\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\dimens.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\strings.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\app\src\main\res\values\styles.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle\wrapper\gradle-wrapper.jar" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradle\wrapper\gradle-wrapper.properties" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradlew" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\gradlew.bat" afterPath="" />
+      <change type="DELETED" beforePath="F:\app\ShareEscience\settings.gradle" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/FlickrFetchr.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/FlickrFetchr.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$FetchItemsTask.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$FetchItemsTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$GalleryItemAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment$GalleryItemAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoGalleryFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/PhotoPageFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/ThumbnailDownloader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/bignerdranch/android/photogallery/VisibleFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug-unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/debug/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" afterPath="$PROJECT_DIR$/build/intermediates/gradle_project_sync_data.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/outputFileStates.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug-androidTest.ap_" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug-androidTest.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/app/build/intermediates/res/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/support-v4-18.0.0-04ebd5be4fc1deac57340eddb991fde4583e64d4.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.4/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/gradle.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/gradle.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Handlerthreadtest/app/src/main/java/com/example/lushan/handlerthreadtest/handlerthread_activity.java" afterPath="$PROJECT_DIR$/../Handlerthreadtest/app/src/main/java/com/example/lushan/handlerthreadtest/handlerthread_activity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/local.properties" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/local.properties" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/local.properties" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/misc.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CriminalIntent(22)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../GeoQuiz(6)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../GeoQuiz(6)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../PhotoGallery(29)/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="PhotoGallery(31).iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,9 +142,9 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
-                <element signature="method#getUrlBytes#0;class#FlickrFetchr#0" expanded="false" />
+                <element signature="imports" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -84,13 +184,11 @@
       <file leaf-file-name="ThumbnailDownloader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8959854">
-              <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.24270073">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="32" />
               <folding>
-                <element signature="e#990#1371#0" expanded="true" />
-                <element signature="e#1370#1371#0" expanded="true" />
-                <element signature="e#1818#2117#0" expanded="true" />
-                <element signature="e#2116#2117#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#935#963#0" expanded="false" />
                 <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
               </folding>
             </state>
@@ -101,8 +199,23 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
-              <folding />
+              <caret line="47" column="66" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="66" />
+              <folding>
+                <element signature="e#1308#1355#0" expanded="false" />
+                <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="e#2349#2374#0" expanded="false" />
+                <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="e#2959#2968#0" expanded="false" />
+                <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="e#3856#3865#0" expanded="false" />
+                <element signature="e#4403#4433#0" expanded="false" />
+                <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+                <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,6 +269,9 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="availableProjects">
@@ -1567,6 +1683,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java" />
       </list>
     </option>
@@ -1578,7 +1695,7 @@
     <option name="width" value="1366" />
     <option name="height" value="728" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -1601,6 +1718,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1612,15 +1730,15 @@
         </subPane>
       </pane>
       <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Confirmation" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="192.168.56.101:5555" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1819,7 +1937,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1831,11 +1949,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.7947826" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1846,7 +1963,8 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32869565" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1862,7 +1980,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1870,9 +1988,9 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
-            <element signature="method#getUrlBytes#0;class#FlickrFetchr#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1909,12 +2027,10 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
           <folding>
-            <element signature="e#990#1371#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1818#2117#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#963#0" expanded="false" />
             <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
           </folding>
         </state>
@@ -1923,8 +2039,23 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="184" column="42" selection-start-line="184" selection-start-column="42" selection-end-line="184" selection-end-column="42" />
-          <folding />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#1308#1355#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2349#2374#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2959#2968#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#3856#3865#0" expanded="false" />
+            <element signature="e#4403#4433#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1975,7 +2106,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
           <folding>
-            <element signature="method#getUrlBytes#0;class#FlickrFetchr#0" expanded="false" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2014,10 +2145,124 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#990#1371#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1818#2117#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#963#0" expanded="false" />
+            <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
+          <folding>
+            <element signature="e#1308#1355#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2349#2374#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2959#2968#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#3856#3865#0" expanded="false" />
+            <element signature="e#4403#4433#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PollService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2454#2498#0" expanded="false" />
+            <element signature="e#3324#3325#0" expanded="false" />
+            <element signature="e#3350#3351#0" expanded="false" />
+            <element signature="method#onHandleIntent#0;class#PollService#0" expanded="false" />
+            <element signature="e#3617#3700#0" expanded="false" />
+            <element signature="e#5212#5300#0" expanded="false" />
+            <element signature="e#5811#5926#0" expanded="false" />
+            <element signature="method#setServiceAlarm#0;class#PollService#0" expanded="false" />
+            <element signature="e#6938#6981#0" expanded="false" />
+            <element signature="e#7445#7544#0" expanded="false" />
+            <element signature="e#7681#7769#0" expanded="false" />
+            <element signature="e#7960#7983#0" expanded="false" />
+            <element signature="method#isServiceAlarmOn#0;class#PollService#0" expanded="false" />
+            <element signature="method#showBackgroundNotification#0;class#PollService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/SingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/GalleryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#963#0" expanded="false" />
             <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
           </folding>
         </state>
@@ -2027,7 +2272,138 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="184" column="42" selection-start-line="184" selection-start-column="42" selection-end-line="184" selection-end-column="42" />
+          <folding>
+            <element signature="e#1308#1355#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2349#2374#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2959#2968#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#3856#3865#0" expanded="false" />
+            <element signature="e#4403#4433#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PollService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#2454#2498#0" expanded="false" />
+            <element signature="e#3324#3325#0" expanded="false" />
+            <element signature="e#3350#3351#0" expanded="false" />
+            <element signature="method#onHandleIntent#0;class#PollService#0" expanded="false" />
+            <element signature="e#3617#3700#0" expanded="false" />
+            <element signature="e#5212#5300#0" expanded="false" />
+            <element signature="e#5811#5926#0" expanded="false" />
+            <element signature="method#setServiceAlarm#0;class#PollService#0" expanded="false" />
+            <element signature="e#6938#6981#0" expanded="false" />
+            <element signature="e#7445#7544#0" expanded="false" />
+            <element signature="e#7681#7769#0" expanded="false" />
+            <element signature="e#7960#7983#0" expanded="false" />
+            <element signature="method#isServiceAlarmOn#0;class#PollService#0" expanded="false" />
+            <element signature="method#showBackgroundNotification#0;class#PollService#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/SingleFragmentActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/GalleryItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="e#216#217#0" expanded="false" />
+            <element signature="e#247#248#0" expanded="false" />
+            <element signature="e#292#293#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#354#355#0" expanded="false" />
+            <element signature="e#380#381#0" expanded="false" />
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#500#501#0" expanded="false" />
+            <element signature="e#538#539#0" expanded="false" />
+            <element signature="e#564#565#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
+            <element signature="e#625#626#0" expanded="false" />
+            <element signature="e#667#668#0" expanded="false" />
+            <element signature="e#697#698#0" expanded="false" />
+            <element signature="e#740#741#0" expanded="false" />
+            <element signature="e#815#816#0" expanded="false" />
+            <element signature="e#847#848#0" expanded="false" />
+            <element signature="e#878#879#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#963#0" expanded="false" />
+            <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="184" column="42" selection-start-line="184" selection-start-column="42" selection-end-line="184" selection-end-column="42" />
+          <folding>
+            <element signature="e#1308#1355#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2349#2374#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2959#2968#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#3856#3865#0" expanded="false" />
+            <element signature="e#4403#4433#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2084,24 +2460,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="22" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
-          <folding>
-            <element signature="method#getUrlBytes#0;class#FlickrFetchr#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2172,10 +2530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33211678">
           <caret line="358" column="16" selection-start-line="358" selection-start-column="16" selection-end-line="358" selection-end-column="16" />
-          <folding>
-            <element signature="e#11539#11540#0" expanded="false" />
-            <element signature="e#11579#11580#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2187,23 +2541,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/FlickrFetchr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/PhotoGalleryFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="220" column="38" selection-start-line="220" selection-start-column="38" selection-end-line="220" selection-end-column="38" />
-          <folding />
+          <caret line="47" column="66" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="66" />
+          <folding>
+            <element signature="e#1308#1355#0" expanded="false" />
+            <element signature="method#onCreateView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2349#2374#0" expanded="false" />
+            <element signature="method#onDestroy#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onDestroyView#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#2959#2968#0" expanded="false" />
+            <element signature="method#onCreateOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="e#3856#3865#0" expanded="false" />
+            <element signature="e#4403#4433#0" expanded="false" />
+            <element signature="method#onPrepareOptionsMenu#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#setupAdapter#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#doInBackground#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+            <element signature="method#onPostExecute#0;class#FetchItemsTask#0;class#PhotoGalleryFragment#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/bignerdranch/android/photogallery/ThumbnailDownloader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8959854">
-          <caret line="73" column="58" selection-start-line="73" selection-start-column="58" selection-end-line="73" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.24270073">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="32" />
           <folding>
-            <element signature="e#990#1371#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1818#2117#0" expanded="true" />
-            <element signature="e#2116#2117#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#963#0" expanded="false" />
             <element signature="method#clearQueue#0;class#ThumbnailDownloader#0" expanded="false" />
           </folding>
         </state>

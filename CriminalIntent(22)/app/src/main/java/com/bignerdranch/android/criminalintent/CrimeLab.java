@@ -10,7 +10,11 @@ import android.util.Log;
 public class CrimeLab {
     private static final String TAG = "CrimeLab";
     private static final String FILENAME = "crimes.json";
+//    crime数组对象存储在一个单例里，在创建单例的实例时，一个类仅允许创建一个实例
+//    应用能够在内存里存在多久，单例就能存在多久。
+//    要创建单例，需要创建一个带有私有构造方法及get方法的类。其中get方法返回实例，如果实例已经存在。
 
+    //    私有构造方法,关联到
     private ArrayList<Crime> mCrimes;
     private CriminalIntentJSONSerializer mSerializer;
 
@@ -31,6 +35,7 @@ public class CrimeLab {
 
     public static CrimeLab get(Context c) {
         if (sCrimeLab == null) {
+//            从全局context中获得context来对CrimeLab赋值，并新建
             sCrimeLab = new CrimeLab(c.getApplicationContext());
         }
         return sCrimeLab;

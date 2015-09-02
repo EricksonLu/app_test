@@ -81,8 +81,6 @@ public class CrimeListFragment extends ListFragment {
                                                       long id, boolean checked) {
                 }
 
-
-//                下面
 //                这个是在ActionMode对象创建后调用,也是实例化上下文菜单资源,并显示在上下文操作栏上的任务完成地方
 //                在这个方法中,我们是从操作模式而非Activity中获取MenuInflater,操作模式负责对上下文操作栏进行配置.
 //                如ActionMode.setTitle方法为上下文操作蓝设置标题

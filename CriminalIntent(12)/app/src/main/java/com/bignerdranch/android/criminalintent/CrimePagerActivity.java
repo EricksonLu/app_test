@@ -42,8 +42,6 @@ public class CrimePagerActivity extends FragmentActivity {
 //        final ArrayList<Crime> crimes1 = CrimeLab.get(this).getmCrimes();
 //        final ArrayList<Crime> crimes2 = CrimeLab.get(getApplicationContext()).getmCrimes();
 //        这三个等效，
-
-
 //        获取activity的FragmentManager实例，为FragmentStatePagerAdapter提供参数。
         FragmentManager fm = getSupportFragmentManager();
         mViewPager.setAdapter(new FragmentStatePagerAdapter(fm) {

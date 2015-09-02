@@ -37,6 +37,7 @@ public class CrimeFragment extends Fragment {
     private static final String DIALOG_DATE = "date";
     private static final String DIALOG_IMAGE = "image";
     private static final int REQUEST_DATE = 0;
+//    CrimeCameraFragment会将图片文件名防止在extra中并不加到intent上然后传入CrimeCameraActivity.setResult(int,Intent)方法
     private static final int REQUEST_PHOTO = 1;
     private static final int REQUEST_CONTACT = 2;
 
@@ -49,6 +50,8 @@ public class CrimeFragment extends Fragment {
     ImageView mPhotoView;
     Callbacks mCallbacks;
 
+//    传递crimeId的新建实例(当CrimeActivity)创建CrimeFragment时，应调用CrimeFragment.newInstance，并传入从它的extra中获取的UUID参数值，
+//    这个fragment保留着这个值，不需要从上级actvity获取
 //    添加CrimeFragment给crime明细fragment容器，让CrimeListActivity可以展示一个完整的双版面用户界面
 //    第一反应是平板设备需要实现一个CrimeListFragment.onListItemClick()监听器方法就行。这样就不需要启动新的CrimePagerActivity
 //    onListItemClick()方法会获取CrimeListActivity的FragmentManager然后提交一个fragment事务，将CrimeFragment添加到明细fragment容器中
@@ -92,11 +95,15 @@ public class CrimeFragment extends Fragment {
         return fragment;
     }
 
+
+//    因为需要被托管fragment的任何activity调用，所以是公共方法
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
+//        从Fragment的argument中获取crimeId，不需要从上级托管了的activity中获取。
         UUID crimeId = (UUID)getArguments().getSerializable(EXTRA_CRIME_ID);
+//        获取CrimeActivity的intent返回至此Fragment,让fragment直接获取托管activity的intent，
+//        getActivity返回CrimeActivity的intent
         mCrime = CrimeLab.get(getActivity()).getCrime(crimeId);
 
         setHasOptionsMenu(true);
@@ -106,17 +113,22 @@ public class CrimeFragment extends Fragment {
         mDateButton.setText(mCrime.getDate().toString());
     }
 
+
+//    parent是视图的父视图，第三个参数是告知布局生成器是否将生成的视图添加给父视图，因为将通过activity代码的方式添加视图
     @Override
     @TargetApi(11)
     public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime, parent, false);
 
+//        让应用CrimeFragment的图标转化为按钮并显示一个向左的图标
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             getActivity().getActionBar().setDisplayHomeAsUpEnabled(true);
         }
         
         mTitleField = (EditText)v.findViewById(R.id.crime_title);
         mTitleField.setText(mCrime.getTitle());
+
+//        添加text_watcher,CharSequence代表用户输入
         mTitleField.addTextChangedListener(new TextWatcher() {
             public void onTextChanged(CharSequence c, int start, int before, int count) {
                 mCrime.setTitle(c.toString());
@@ -148,29 +160,47 @@ public class CrimeFragment extends Fragment {
             public void onClick(View v) {
                 FragmentManager fm = getActivity()
                         .getSupportFragmentManager();
+//                创建DatePickerFragment，并传递给其构造函数日期数据
                 DatePickerFragment dialog = DatePickerFragment
                     .newInstance(mCrime.getDate());
+//                将CrimeFragment设置成DatePickerFragment的目标fragment，建立这种关联
+//                在CrimeFragment使用REQUEST_DATE
+//
+//                使用REQUEST_DATE通知是哪个fragment在返回数据
+//                目标target，CrimeFragment使用getTarget和gettargetrequestcode方法获取它们
                 dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
+
+//                使用dialog.show(FragmentManager fm,String tag);显示日期控件
                 dialog.show(fm, DIALOG_DATE);
             }
         });
         
         mPhotoButton = (ImageButton)v.findViewById(R.id.crime_imageButton);
+//        启动摄像机
         mPhotoButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // launch the camera activity
                 Intent i = new Intent(getActivity(), CrimeCameraActivity.class);
+//                以接收返回值的方式启动CrimeCameraActivity
                 startActivityForResult(i, REQUEST_PHOTO);
             }
         });
         
         // if camera is not available, disable camera functionality
+//        对于不带摄像机的应该禁用这个button
+//        通过查询getPackageManager
         PackageManager pm = getActivity().getPackageManager();
+//        hasSystemFeature传入表示设备特色功能的常量
+//        FEATURE_CAMERA常量代表后置相机。
+//        FEATURE_CAMERA_FRONT代表前置相机
         if (!pm.hasSystemFeature(PackageManager.FEATURE_CAMERA) &&
                 !pm.hasSystemFeature(PackageManager.FEATURE_CAMERA_FRONT)) {
+//            对于没有相机的禁用button
+//            前面已经在配置文件中强制将界面以水平模式展现
             mPhotoButton.setEnabled(false);
         }
 
+//        预显示图片区域
         mPhotoView = (ImageView)v.findViewById(R.id.crime_imageView);
         mPhotoView.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -178,6 +208,9 @@ public class CrimeFragment extends Fragment {
                 if (p == null) 
                     return;
 
+//                显示图片
+//                通过调用show方法，将ImageFragment实例添加给CrimePagerActivity的FragmentManager，
+//                另外还需要一个字符串常量为一定为FragmentManager中的ImageFragment
                 FragmentManager fm = getActivity()
                     .getSupportFragmentManager();
                 String path = getActivity()
@@ -225,7 +258,12 @@ public class CrimeFragment extends Fragment {
         
         return v; 
     }
-    
+//    处理由DatePickerFragment返回的数据
+//    此处的requestCode和resultCode是Fragment的一种管理方式。
+//    requestCode是自己定义的，用来告知CrimeFragment的这个是来自于哪个Fragment，有个能多个Fragment和这个CrimeFragment向关联是就要区分了
+//    而这个resultCode是由FragmentManager统一管理的RESULT_OK，这个是Activity的属性，一定要优先调用，否则会ANR
+//    写onActivityResult，要如这个例子。
+//    设置私有方法，将缩放后的图片设置给ImageView视图，在onStart调用
     private void showPhoto() {
         // (re)set the image button's image based on our photo
         Photo p = mCrime.getPhoto();
@@ -247,6 +285,9 @@ public class CrimeFragment extends Fragment {
     @Override
     public void onStart() {
         super.onStart();
+//        只要CrimeFragment视图一出现在屏幕上，就调用showphoto
+//        在onActivityResult方法中，同样调用showPhoto方法，以确保用户从CrimeCameraActivity返回后
+//        ImageView视图可以显示用户所拍照片
         showPhoto();
     }
     
@@ -258,6 +299,7 @@ public class CrimeFragment extends Fragment {
             mCrime.setDate(date);
             mCallbacks.onCrimeUpdated(mCrime);
             updateDate();
+//            处理请求的代码如果是照片请求来的就获取照片文件名
         } else if (requestCode == REQUEST_PHOTO) {
             // create a new Photo object and attach it to the crime
             String filename = data
@@ -322,8 +364,17 @@ public class CrimeFragment extends Fragment {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+//            无需在XML文件中定义或生成应用图标菜单项，它已经具有资源ID，这个是CrimeFragment左上角的图标
             case android.R.id.home:
-                NavUtils.navigateUpFromSameTask(getActivity());
+//                为实现用户点击向上按钮返回至crime列表界面。在PagerActivity添加他的父activity是list
+//                为什么要在这里写这个navigateUpFromSameTask????
+//                1PagerActivity其实也是启动的这个CrimeFragment
+//                配合AndioidManifest文件 ,对CrimePagerActivity添加mets-data属性，如下
+//                <meta-data android:name="android.support.PARENT_ACTIVITY"
+//                android:value=".CrimeListActivity"/>
+//                这样子，无论是新建Crime的活动还是pager的活动都能实现返回
+                if(NavUtils.getParentActivityName(getActivity()) != null){
+                NavUtils.navigateUpFromSameTask(getActivity());}
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

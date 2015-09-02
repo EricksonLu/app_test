@@ -55,7 +55,7 @@ public class handlerthread_activity extends Activity {
 
 // 要想将消息对象或runnable对象分发到各个子线程，并让子线程执行。必须要获得发送消息的工具：Handler对象。
 // 注意：每个特定的handler对象只负责向一个特定的线程发送消息，让那个特定的线程来执行和处理消息。比如：UI线程的handler，它的post runnable
-// 或者 sendmessage方法都只会将消息发送到主线程，让主线程来从其消息队列中取出并执行。
+// 或者 send message方法都只会将消息发送到主线程，让主线程来从其消息队列中取出并执行。
 // 因此，下面对各个特定线程分别创建它们的handler对象
         MyHandler handler01 = new MyHandler(subThread01.getLooper());
         MyHandler handler02 = new MyHandler(subThread02.getLooper());
